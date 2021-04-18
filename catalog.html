@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Index</title>
+  <title>Catalog</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="layout/styles/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 </head>
@@ -59,10 +59,10 @@
       </div>
       <div class="header__rightbox">
         <div class="cartdrop">
-          <a href="cart.html"><img class="hover" src="assets/imgs/cart.png" alt="cart"></a>
+          <a href="cart.html" ><img class="hover" src="assets/imgs/cart.png" alt="cart"></a>
           <div class="cartdrop__box">
             <div class="cartdrop__product">
-              <a href="single_page.html"><img src="assets/imgs/product-3.png" alt="product-3"></a>
+              <a href="single_page.html" ><img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/product-3.png" alt="product-3"></a>
               <div class="cartdrop__product-desc">
                 <h4>Rebox Zane</h4>
                 <p class="cartdrop__product-rate">
@@ -81,7 +81,7 @@
               </div>
             </div>
             <div class="cartdrop__product">
-              <a href="single_page.html"><img src="assets/imgs/product-big.png" alt="product-big"></a>
+              <a href="single_page.html"><img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/product-big.png" alt="product-2"></a>
               <div class="cartdrop__product-desc">
                 <h4>Rebox Zane</h4>
                 <p class="cartdrop__product-rate">
@@ -409,93 +409,290 @@
         </div>
       </div>
     </nav>
-    <section class="banner padding-site">
-      <div class="banner__text">
-        <h1>THE BRAND</h1>
-        <p>OF LUXERIOUS <span>FASHION</span></p>
+    <nav class="breadcrumb padding-site">
+      <h1>New Arrivals</h1>
+      <p><a href="index.html">Home</a> / <a href="catalog.html">Men</a> / <span>New Arrivals</span> </p>
+    </nav>
+    <section class="catalog padding-site">
+      <div class="catalog__left">
+        <details open>
+          <summary>Category</summary>
+          <ul>
+            <li><a href="#"> Accessories</a></li>
+            <li><a href="#"> Bags</a></li>
+            <li><a href="#"> Denim</a></li>
+            <li><a href="#"> Hoodies & Sweatshirts</a></li>
+            <li><a href="#"> Jackets & Coats</a></li>
+            <li><a href="#"> Pants</a></li>
+            <li><a href="#"> Polos</a></li>
+            <li><a href="#"> Shirts</a></li>
+            <li><a href="#"> Shoes</a></li>
+            <li><a href="#"> Shorts</a></li>
+            <li><a href="#"> Sweaters & Knits</a></li>
+            <li><a href="#"> T-Shirts</a></li>
+            <li><a href="#"> Tanks</a></li>
+          </ul>
+        </details>
+        <details>
+          <summary>Brand</summary>
+          <ul>
+            <li><a href="#"> Accessories</a></li>
+            <li><a href="#"> Bags</a></li>
+            <li><a href="#"> Denim</a></li>
+            <li><a href="#"> Hoodies & Sweatshirts</a></li>
+            <li><a href="#"> Jackets & Coats</a></li>
+            <li><a href="#"> Pants</a></li>
+            <li><a href="#"> Polos</a></li>
+            <li><a href="#"> Shirts</a></li>
+            <li><a href="#"> Shoes</a></li>
+            <li><a href="#"> Shorts</a></li>
+            <li><a href="#"> Sweaters & Knits</a></li>
+            <li><a href="#"> T-Shirts</a></li>
+            <li><a href="#"> Tanks</a></li>
+          </ul>
+        </details>
+        <details>
+          <summary>Designer</summary>
+          <ul>
+            <li><a href="#"> Accessories</a></li>
+            <li><a href="#"> Bags</a></li>
+            <li><a href="#"> Denim</a></li>
+            <li><a href="#"> Hoodies & Sweatshirts</a></li>
+            <li><a href="#"> Jackets & Coats</a></li>
+            <li><a href="#"> Pants</a></li>
+            <li><a href="#"> Polos</a></li>
+            <li><a href="#"> Shirts</a></li>
+            <li><a href="#"> Shoes</a></li>
+            <li><a href="#"> Shorts</a></li>
+            <li><a href="#"> Sweaters & Knits</a></li>
+            <li><a href="#"> T-Shirts</a></li>
+            <li><a href="#"> Tanks</a></li>
+          </ul>
+        </details>
+      </div>
+      <div class="catalog__right">
+        <form class="filter">
+          <div class="filter__trending">
+            <h3 class="filter__name">Trending now</h3>
+            <fieldset class="radio">
+              <div class="radio__btn">
+                <input id="radio-1" type="radio" name="radio" value="Bohemian" checked>
+                <label for="radio-1">Bohemian</label>
+              </div>
+              <div class="radio__btn">
+                <input id="radio-2" type="radio" name="radio" value="Floral">
+                <label for="radio-2">Floral</label>
+              </div>
+              <div class="radio__btn">
+                <input id="radio-3" type="radio" name="radio" value="Lace">
+                <label for="radio-3">Lace</label>
+              </div>
+              <div class="radio__btn">
+                <input id="radio-4" type="radio" name="radio" value="Lace">
+                <label for="radio-4">Lace</label>
+              </div>
+              <div class="radio__btn">
+                <input id="radio-5" type="radio" name="radio" value="Floral">
+                <label for="radio-5">Floral</label>
+              </div>
+              <div class="radio__btn">
+                <input id="radio-6" type="radio" name="radio" value="Bohemian">
+                <label for="radio-6">Bohemian</label>
+              </div>
+            </fieldset>
+
+          </div>
+          <div class="filter__size">
+            <h3 class="filter__name">Size</h3>
+            <fieldset>
+              <div>
+                <div class="checkbox">
+                  <input type="checkbox" name="size" id="xxs">
+                  <label for="xxs">xxs</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" name="size" id="l">
+                  <label for="l">l</label>
+                </div>
+              </div>
+              <div>
+                <div class="checkbox">
+                  <input type="checkbox" name="size" id="xs">
+                  <label for="xs">xs</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" name="size" id="xl">
+                  <label for="xl">xl</label>
+                </div>
+              </div>
+              <div>
+                <div class="checkbox">
+                  <input type="checkbox" name="size" id="s">
+                  <label for="s">s</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" name="size" id="xxl">
+                  <label for="xxl">xxl</label>
+                </div>
+              </div>
+              <div>
+                <div class="checkbox">
+                  <input type="checkbox" name="size" id="m">
+                  <label for="m">m</label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="filter__price">
+            <h3 class="filter__name">Price</h3>
+            <fieldset oninput="userPrice.value=(price.value)" action="#">
+              <input type="range" name="range" id="price" max="400" value="100">
+              <p>$<output name="userPrice" for="price">100</output></p>
+            </fieldset>
+          </div>
+        </form>
+        <form action="#" class="selector">
+          <div class="selector__variant">
+            <label for="sortBy">Sort By</label><select name="sortBy" id="sortBy">
+              <option value="name" selected>Name</option>
+              <option value="brand">Price</option>
+              <option value="name">Popularity</option>
+            </select>
+          </div>
+          <div class="selector__variant">
+            <label for="show">Show</label><select name="show" id="show">
+              <option value="04" selected>04</option>
+              <option value="09">09</option>
+              <option value="16">16</option>
+            </select>
+          </div>
+        </form>
+        <div class="product__box">
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-1.png" class="product__img" alt="man-1">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-2.png" class="product__img" alt="man-2">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-3.png" class="product__img" alt="man-3">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-4.png" class="product__img" alt="man-4">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-5.png" class="product__img" alt="man-5">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-6.png" class="product__img" alt="man-6">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-7.png" class="product__img" alt="man-7">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-8.png" class="product__img" alt="man-8">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/man-9.png" class="product__img" alt="man-9">
+            <a href="single_page.html" class="product__name">Mango People T-shirt</a>
+            <p class="product__price">$52.00</p>
+            <div class="product__cart">
+              <img src="assets/imgs/cart-white.png" alt="cart-white">
+              <p>Add to Cart</p>
+            </div>
+          </div>
+        </div>
+        <div class="catalog__controls">
+          <p class="catalog__pages">
+            <i class="fas fa-chevron-left"></i>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>...<a href="#">20</a>
+            <i class="fas fa-chevron-right"></i>
+          </p>
+          <button type="button" class="catalog__button hover">View All</button>
+        </div>
       </div>
     </section>
-    <section class="category__section padding-site">
-      <div class="category__column">
-        <a href="catalog.html">
-          <div class="category category_men">
-            <div class="category__text">
-              <h3>Hot deal</h3>
-              <h2>For men</h2>
-            </div>
-          </div>
-        </a>
-        <a href="catalog.html">
-          <div class="category category_accessories">
-            <div class="category__text">
-              <h3>Luxurious & Trendy</h3>
-              <h2>Accessories</h2>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="category__column">
-        <a href="catalog.html">
-          <div class="category category_women">
-            <div class="category__text">
-              <h3>30% Offer</h3>
-              <h2>Women</h2>
-            </div>
-          </div>
-        </a>
-        <a href="catalog.html">
-          <div class="category category_kids">
-            <div class="category__text">
-              <h3>New arrivals</h3>
-              <h2>For Kids</h2>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
-    <section class="product__section padding-site">
-      <h2>Fetured Items</h2>
-      <h3>Shop for items based on what we featured in this week</h3>
-      <div class="product__box">
-      </div>
-      <button onClick="location.href='catalog.html'" class="product__button hover">
-        Browse All Product <i class="fas fa-long-arrow-alt-right"></i>
-      </button>
-    </section>
-    <section class="feature__section feature__section_index padding-site">
-      <div class="feature__left">
-        <h2>30% <span>Offer</span></h2>
-        <h3>FOR WOMEN</h3>
-      </div>
-      <div class="feature__right">
-        <figure class="feature__figure_index">
-          <div class="feature__img feature__img_index">
-            <img src="assets/imgs/truck.png" alt="truck">
-          </div>
-          <figcaption class="feature__desc feature__desc_index">
-            <h4>Free Delivery</h4>
-            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-          </figcaption>
-        </figure>
-        <figure class="feature__figure_index">
-          <div class="feature__img feature__img_index">
-            <img src="assets/imgs/discount.png" alt="discount">
-          </div>
-          <figcaption class="feature__desc feature__desc_index">
-            <h4>Sales & discounts</h4>
-            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-          </figcaption>
-        </figure>
-        <figure class="feature__figure_index">
-          <div class="feature__img feature__img_index">
-            <img src="assets/imgs/crown.png" alt="crown">
-          </div>
-          <figcaption class="feature__desc feature__desc_index">
-            <h4>Quality assurance</h4>
-            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-          </figcaption>
-        </figure>
-      </div>
+    <section class="feature__section feature__section_catalog padding-site">
+      <figure class="feature__figure_catalog">
+        <div class="feature__img feature__img_catalog">
+          <img src="assets/imgs/truck.png" alt="truck">
+        </div>
+        <figcaption class="feature__desc feature__desc_catalog">
+          <h4>Free Delivery</h4>
+          <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </figcaption>
+      </figure>
+      <figure class="feature__figure_catalog">
+        <div class="feature__img feature__img_catalog">
+          <img src="assets/imgs/discount.png" alt="discount">
+        </div>
+        <figcaption class="feature__desc feature__desc_catalog">
+          <h4>Sales & discounts</h4>
+          <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </figcaption>
+      </figure>
+      <figure class="feature__figure_catalog">
+        <div class="feature__img feature__img_catalog">
+          <img src="assets/imgs/crown.png" alt="crown">
+        </div>
+        <figcaption class="feature__desc feature__desc_catalog">
+          <h4>Quality assurance</h4>
+          <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </figcaption>
+      </figure>
     </section>
     <section class="subscribe__section padding-site">
       <div class="subscribe-carousel">
@@ -503,10 +700,10 @@
           <div class="carousel-indicators subscribe-carousel__pagiblock">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active hover"
               aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
-              class="hover"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
-              class="hover"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2" class="hover"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3" class="hover"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -591,7 +788,7 @@
         <div class="f-link__column">
           <h3>Company</h3>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">How It Works</a></li>
@@ -611,11 +808,11 @@
         <div class="f-link__column">
           <h3>Shop Category</h3>
           <ul>
-            <li><a href="catalog.html">Men</a></li>
-            <li><a href="catalog.html">Women</a></li>
-            <li><a href="catalog.html">Child</a></li>
-            <li><a href="catalog.html">Apparel</a></li>
-            <li><a href="catalog.html">Brows All</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Child</a></li>
+            <li><a href="#">Apparel</a></li>
+            <li><a href="#">Brows All</a></li>
           </ul>
         </div>
       </div>
@@ -635,13 +832,6 @@
 
   </footer>
   <script src="https://kit.fontawesome.com/c1c076e496.js" crossorigin="anonymous"></script>
-  <script src="scripts/product.js"></script>
-  <script src="scripts/productBox.js"></script>
-  <script>
-    let productBox = new ProductBox;
-    productBox.createProducts(8);
-    productBox.renderProducts();
-  </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>

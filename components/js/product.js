@@ -1,6 +1,6 @@
 'use strict';
 
-class Product {
+export default class Product {
   constructor() {
     this.id = null;
     this.img = '';

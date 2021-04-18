@@ -406,7 +406,7 @@ body {
 .banner {
   height: 613px;
   width: 100%;
-  background-image: url(../assets/imgs/banner.png);
+  background-image: url(../../assets/imgs/banner.png);
   background-position-y: -52px;
   padding-top: 224px;
 
@@ -448,24 +448,24 @@ body {
 
   &_men {
     height: 542px;
-    background-image: url(../assets/imgs/category-men.png);
+    background-image: url(../../assets/imgs/category-men.png);
   }
 
   &_accessories {
     margin-top: 20px;
     height: 261px;
-    background-image: url(../assets/imgs/category-accessories.png);
+    background-image: url(../../assets/imgs/category-accessories.png);
   }
 
   &_women {
     height: 261px;
-    background-image: url(../assets/imgs/category-women.png);
+    background-image: url(../../assets/imgs/category-women.png);
   }
 
   &_kids {
     margin-top: 20px;
     height: 542px;
-    background-image: url(../assets/imgs/category-kids.png);
+    background-image: url(../../assets/imgs/category-kids.png);
   }
 
   &__text {
@@ -616,7 +616,7 @@ body {
   }
 
   &__left {
-    background-image: url(../assets/imgs/feature-wrapper.png), url(../assets/imgs/feature.png);
+    background-image: url(../../assets/imgs/feature-wrapper.png), url(../../assets/imgs/feature.png);
     background-repeat: no-repeat;
     height: 529px;
     width: 767px;
@@ -704,7 +704,7 @@ body {
   &__section {
     height: 438px;
     width: 100%;
-    background-image: url(../assets/imgs/subscribe-wrapper.png), url(../assets/imgs/subscribe.png);
+    background-image: url(../../assets/imgs/subscribe-wrapper.png), url(../../assets/imgs/subscribe.png);
     padding-top: 110px;
     display: flex;
   }

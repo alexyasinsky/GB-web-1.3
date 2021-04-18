@@ -1,6 +1,8 @@
 'use strict';
 
-class ProductBox {
+import Product from './product.js';
+
+export default class ProductBox {
   constructor() {
     this.productList = [];
     this.productsEl = document.querySelector('.product__box');
@@ -10,7 +12,7 @@ class ProductBox {
     for (let i = 1; i <= qty; i++) {
       let product = new Product;
       product.id = i;
-      product.img = `assets\\imgs\\product-${i}.png`;
+      product.img = `https://raw.githubusercontent.com/alexyasinsky/GB-web-1.3-static/main/product-${i}.png`;
       product.name = 'Mango People T-shirt';
       product.price = '$52.00';
       this.productList.push(product);

@@ -468,7 +468,7 @@ body {
 .banner {
   height: 613px;
   width: 100%;
-  background-image: url(../assets/imgs/banner.png);
+  background-image: url(../../assets/imgs/banner.png);
   background-position-y: -52px;
   padding-top: 224px;
 }
@@ -517,24 +517,24 @@ body {
 
 .category_men {
   height: 542px;
-  background-image: url(../assets/imgs/category-men.png);
+  background-image: url(../../assets/imgs/category-men.png);
 }
 
 .category_accessories {
   margin-top: 20px;
   height: 261px;
-  background-image: url(../assets/imgs/category-accessories.png);
+  background-image: url(../../assets/imgs/category-accessories.png);
 }
 
 .category_women {
   height: 261px;
-  background-image: url(../assets/imgs/category-women.png);
+  background-image: url(../../assets/imgs/category-women.png);
 }
 
 .category_kids {
   margin-top: 20px;
   height: 542px;
-  background-image: url(../assets/imgs/category-kids.png);
+  background-image: url(../../assets/imgs/category-kids.png);
 }
 
 .category__text {
@@ -703,7 +703,7 @@ body {
 }
 
 .feature__left {
-  background-image: url(../assets/imgs/feature-wrapper.png), url(../assets/imgs/feature.png);
+  background-image: url(../../assets/imgs/feature-wrapper.png), url(../../assets/imgs/feature.png);
   background-repeat: no-repeat;
   height: 529px;
   width: 767px;
@@ -790,7 +790,7 @@ body {
 .subscribe__section {
   height: 438px;
   width: 100%;
-  background-image: url(../assets/imgs/subscribe-wrapper.png), url(../assets/imgs/subscribe.png);
+  background-image: url(../../assets/imgs/subscribe-wrapper.png), url(../../assets/imgs/subscribe.png);
   padding-top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
