@@ -1,8 +1,6 @@
-
-import ProductBox from './productBox.js';
+import { Cart, Catalog } from './lists';
 
 export default () => {
-  let productBox = new ProductBox;
-  productBox.createProducts(8);
-  productBox.renderProducts();
+    let catalog = new Catalog('catalogData.json', '.product__box');
+    let cart = new Cart('cartData.json', '.cartdrop__box')
 }
