@@ -28,7 +28,7 @@ export class CartItem extends Item {
           <i class="fas fa-star-half-alt"></i>
         </p>
         <p class="cartdrop__product-pq">
-          ${this.quantity} <span>x</span> ${this.price}
+          ${this.quantity} <span>x</span> $${this.price}
         </p>
       </div>
       <div class="cartdrop__product-cancel">
